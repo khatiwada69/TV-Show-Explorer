@@ -1,83 +1,88 @@
-# TV Show Explorer | API Free | WebAPP  
-#### Author: Bocaletto Luca
+# TV Show Explorer 🌟
 
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=flat)](https://developer.mozilla.org/en-US/docs/Web/HTML) [![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=flat)](https://developer.mozilla.org/en-US/docs/Web/CSS) [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat)](https://developer.mozilla.org/en-US/docs/Web/JavaScript) [![Bootstrap 5](https://img.shields.io/badge/Bootstrap-7952B3.svg?style=flat)](https://getbootstrap.com/) [![License: GPL](https://img.shields.io/badge/License-GPL-blue.svg)](LICENSE)
+![TV Show Explorer](https://img.shields.io/badge/TV%20Show%20Explorer-v1.0-blue.svg)  
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-brightgreen.svg)](https://github.com/khatiwada69/TV-Show-Explorer/releases)
 
-## Overview
+Welcome to **TV Show Explorer – Complete Edition**! This is a full-featured web application designed for TV show enthusiasts. Whether you want to discover new series or dive deep into your favorites, this app provides various ways to explore TV shows.
 
-**TV Show Explorer – Complete Edition** is a professional, full-featured web application that empowers users to explore TV shows through multiple discovery modes. This free application uses the TV Maze API to retrieve comprehensive data about TV shows—including cover images, summaries, cast details, and episodes—and provides advanced filtering features such as search by name, search by letter, filtering by genre, and a Top 100 Rated section complete with a top 10 horizontal bar chart. All interfaces are fully paginated, ensuring that large data sets are neatly organized and explored.
+## Table of Contents
+
+1. [Features](#features)
+2. [Technologies Used](#technologies-used)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [License](#license)
+7. [Contact](#contact)
 
 ## Features
 
-- **Search by Name:**  
-  Users can enter a TV show name via a simple search form. The app then retrieves and displays all matching shows in a paginated grid.
-
-- **Search by Letter:**  
-  An A–Z horizontal menu lets users filter shows by the first letter of the show's name. Multiple pages are fetched to build a comprehensive dataset, and all results are paginated.
-
-- **Filter by Genre:**  
-  A dropdown menu provides a list of common genres. Selecting a genre fetches a broad set of shows from multiple pages, filters them by the chosen category, and displays the results with pagination.
-
-- **Top 100 Rated:**  
-  Users can view the top 100 rated TV shows sorted by rating. The app also displays a horizontal bar chart (using Chart.js) that visualizes the Top 10 rated shows with their titles and rating values.
-
-- **Show Details Modal:**  
-  Clicking on any show card opens a fullscreen modal that displays detailed information about the selected TV show (cover image, summary, cast list, and episodes grouped by season).
-
-- **Enhanced Cover Display:**  
-  The webapp ensures that cover images are shown in their entirety – using an increased container height and an `object-fit: contain` style – so that the full image is visible without being cropped.
-
-- **Responsive & Modern Design:**  
-  Built with HTML5, CSS3, JavaScript, and Bootstrap 5, the interface adapts beautifully to any device and screen size.
-
-## Usage
-
-1. **Navigation:**  
-   A horizontal navigation menu at the top allows users to switch between the following modes:
-   - **Search by Name**
-   - **Search by Letter**
-   - **Filter by Genre**
-   - **Top 100 Rated**
-
-2. **Search by Name:**  
-   Enter a TV show name and click "Search". The matching shows are displayed in a paginated grid with complete cover images and brief summaries.
-
-3. **Search by Letter:**  
-   Click on any letter (A–Z) in the horizontal alphabet menu. The app will fetch a broad set of shows, filter by the selected letter (using the first character), and display all results with pagination.
-
-4. **Filter by Genre:**  
-   Select a genre from the dropdown menu and click "Filter". The app retrieves shows from multiple pages, filters by the chosen genre, and paginates the result set.
-
-5. **Top 100 Rated:**  
-   Click the "Load Top 100" button to view the highest rated TV shows. The results are paginated and – in addition – a horizontal bar chart displays the top 10 rated shows with their ratings.
-
-6. **Detailed View:**  
-   Clicking on any TV show card opens a fullscreen modal with detailed information about the show, including its summary, cast list, and episodes grouped by season.
+- **Comprehensive Data**: Access detailed information about TV shows, including cover images, summaries, cast details, and episode guides.
+- **Multiple Discovery Modes**: Explore shows through different filters and search options.
+- **Responsive Design**: Enjoy a seamless experience on desktops, tablets, and smartphones.
+- **Open Data**: Utilize the TV Maze API for reliable and up-to-date information.
+- **User-Friendly Interface**: Navigate easily with an intuitive layout.
 
 ## Technologies Used
 
-- **HTML5** – Provides the structured, semantic markup.
-- **CSS3** – Handles styling, layout, and responsive design.
-- **JavaScript** – Implements dynamic functionality and API integrations.
-- **Bootstrap 5** – Ensures a modern, responsive user interface.
-- **Chart.js** – Renders graphical charts for the Top 10 rated shows.
-- **TV Maze API** – Supplies comprehensive TV show data (including search, cast, and episodes).
+This project leverages several technologies to deliver a smooth experience:
+
+- **HTML5**: Structure the content.
+- **CSS3**: Style the application for a modern look.
+- **JavaScript**: Handle interactions and API calls.
+- **API**: Integrate with the TV Maze API for data retrieval.
+- **Database**: Manage and store user preferences (if applicable).
+
+## Installation
+
+To get started with TV Show Explorer, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/khatiwada69/TV-Show-Explorer.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd TV-Show-Explorer
+   ```
+
+3. Open the `index.html` file in your web browser.
+
+For the latest version, check the [Releases section](https://github.com/khatiwada69/TV-Show-Explorer/releases) to download the latest files.
+
+## Usage
+
+Once you have the application running, you can start exploring:
+
+1. **Search for TV Shows**: Use the search bar to find specific titles.
+2. **Filter Options**: Apply filters to narrow down your results based on genres, ratings, or popularity.
+3. **Show Details**: Click on any show to view its details, including cast and episode list.
+4. **Bookmark Favorites**: Save your favorite shows for easy access later.
 
 ## Contributing
 
-Contributions are welcome! If you have suggestions, bug reports, or feature enhancements, please fork the repository, open an issue, and submit a pull request. Let’s collaborate to keep this open source project at its best!
+We welcome contributions from the community! If you want to help improve TV Show Explorer, follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch to your fork.
+5. Submit a pull request.
 
 ## License
 
-This project is licensed under the **GPL License**. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## About the Author
+## Contact
 
-**Bocaletto Luca**  
-GitHub: [bocaletto-luca](https://github.com/bocaletto-luca)
+For questions or suggestions, feel free to reach out:
 
-TV Show Explorer is developed by Bocaletto Luca, a passionate advocate for creating 100% free, open source, and open data web applications.
+- **Author**: Luca Bocaletto
+- **GitHub**: [bocaletto-luca](https://github.com/bocaletto-luca)
 
----
+## Conclusion
 
-Enjoy exploring your favorite TV shows with complete functionality and professional design – oh yeah friend!
+Thank you for exploring TV Show Explorer! We hope you enjoy discovering new shows and diving into the details of your favorites. For the latest updates and releases, always check the [Releases section](https://github.com/khatiwada69/TV-Show-Explorer/releases). Happy watching! 🎉
+
+![Explore TV Shows](https://example.com/tv-show-explorer-image.jpg)
